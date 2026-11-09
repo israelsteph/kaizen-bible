@@ -2,7 +2,7 @@
 
 Appli de révision biblique pour l'église : lire les 66 livres de la Bible (Louis Segond 1910),
 réviser par cartes avec répétition espacée (gestes ou boutons) le pas du jour, un livre, un paquet ou
-un mélange composé à la main, retenir un principe par jour,
+un mélange composé à la main,
 étudier chaque livre comme sur Quizlet (Cartes, Apprendre, Test), coller ses notes d'étude et voir
 à côté tous les versets qu'elles citent, retenir un principe par jour, animer un quiz projeté et
 lancer des défis entre membres.
