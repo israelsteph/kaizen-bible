@@ -1,7 +1,8 @@
-# Kaizen Bible v0.5
+# Kaizen Bible v0.5.1
 
 Appli de révision biblique pour l'église : lire les 66 livres de la Bible (Louis Segond 1910),
-réviser par cartes avec répétition espacée (gestes ou boutons), retenir un principe par jour,
+réviser par cartes avec répétition espacée (gestes ou boutons) le pas du jour, un livre, un paquet ou
+un mélange composé à la main, retenir un principe par jour,
 étudier chaque livre comme sur Quizlet (Cartes, Apprendre, Test), coller ses notes d'étude et voir
 à côté tous les versets qu'elles citent, retenir un principe par jour, animer un quiz projeté et
 lancer des défis entre membres.
@@ -13,7 +14,7 @@ lancer des défis entre membres.
 - Aucun compte, aucun traceur : la progression et les notes restent sur l'appareil (Réglages → Exporter pour les sauvegarder).
 
 Ce dépôt contient le site prêt à servir (version compilée). Le code source et l'usine de contenu
-sont conservés dans le projet Kaizen Bible (archive Kaizen_Bible_v0.5.zip).
+sont conservés dans le projet Kaizen Bible (archive Kaizen_Bible_v0.5.1.zip).
 
 ## Sources et licences
 
