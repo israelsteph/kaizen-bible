@@ -1,5 +1,5 @@
 /* Kaizen Bible v0.5 — hors connexion : l'appli et ses données sont gardées en cache. */
-var CACHE = 'kaizen-bible-0.5.0';
+var CACHE = 'kaizen-bible-0.5.0-6f86cc0f';
 var FICHIERS = ['./', 'index.html', 'assets/kaizen.js', 'assets/kaizen.css', 'manifest.webmanifest', 'icones/icone.svg',
   'icones/icone-180.png', 'icones/icone-192.png', 'icones/icone-512.png', 'data/manifeste.js', 'data/contenu.js', 'data/principes.js', 'data/graphe.js',
   'polices/polices.css'];
