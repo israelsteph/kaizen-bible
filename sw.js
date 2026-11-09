@@ -4,7 +4,10 @@ var FICHIERS = ['./', 'index.html', 'assets/kaizen.js', 'assets/kaizen.css', 'ma
   'icones/icone-180.png', 'icones/icone-192.png', 'icones/icone-512.png', 'data/manifeste.js', 'data/contenu.js', 'data/principes.js', 'data/graphe.js',
   'polices/polices.css'];
 self.addEventListener('install', function (e) {
-  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(FICHIERS); }).then(function () { return self.skipWaiting(); }));
+  // « reload » : on va chercher chaque fichier sur le serveur, jamais dans le cache HTTP du navigateur
+  // (sinon une mise à jour publiée il y a moins de dix minutes pourrait remettre l'ancien code en cache)
+  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(FICHIERS.map(function (f) { return new Request(f, { cache: 'reload' }); })); })
+    .then(function () { return self.skipWaiting(); }));
 });
 self.addEventListener('activate', function (e) {
   e.waitUntil(caches.keys().then(function (k) { return Promise.all(k.filter(function (x) { return x !== CACHE; }).map(function (x) { return caches.delete(x); })); })
